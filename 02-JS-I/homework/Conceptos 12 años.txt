@@ -1,0 +1,5 @@
+Variables: Es un lugar en el codigo donde guardas algo para usar despues, lo marcas con un nombre y dentro le asignas los datos.
+Strings: Son pedazos de texto que se mostraran al usuario.
+Funciones: Son grupos de codigos que hacen una tarea especifica, por ejemplo la funciones return detiene o corta la ejecucion de un codigo y devuelve un resultado obtenido hasta ese momento.
+Declaraciones: Son ordenes directas al computador que hacen una tarea aunque no se vea. por ejemplo if ordena al computador que condicione la accion que esta haciendo solo si se da esa condicion.
+Valores booleanos: son un tipo de datos que solo pueden tener dos estados, verdadero o falso, negativo o positivo, presente o ausente.
