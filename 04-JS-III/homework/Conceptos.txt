@@ -1,0 +1,1 @@
+Arrays: Es una variable que guarda muchos elementos y de distintos tipos, puede compararse a un album de fotos, cuando lo abres puedes ver o utilizar cada una de las fotos.
