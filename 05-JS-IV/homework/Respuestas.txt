@@ -1,0 +1,5 @@
+* Objetos: Es una coleccion de caracteristicas sin orden numerico, donde cada caracteristica o propiedad puede contener cualquier tipo de valor o hasta una funcion u otro objeto.
+* Propiedades: Son cada uno de los elementos que se guardan dentro de un objeto y contienen un valor de cualquier tipo.
+* Métodos: Son funciones que se ejecutan dentro del objeto donde se invocaron-
+* Bucle `for…in`: es un ciclo repetitivo para recorrer todas las propiedades de un objeto sin seguir un orden numerico.
+* Notación de puntos vs notación de corchetes: son dos maneras de acceder a cada propiedad de un objeto, la notacion de puntos es mas facil de escribir y la notacion de corchetes tiene mas funciones disponibles.
