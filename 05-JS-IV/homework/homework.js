@@ -14,7 +14,7 @@ function crearGato(nombre, edad) {
     }
   };
   return Gato
-}// por que no return gato.meow?
+}
 
 
 function agregarPropiedad(objeto, property) {
@@ -32,7 +32,7 @@ function invocarMetodo(objeto, metodo) {
   // Nada necesita ser devuelto ("returned")
   // Tu código:
   objeto[metodo]();
-} // porque con notacion de puntos no se puede?
+}
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
@@ -61,7 +61,7 @@ function nuevoUsuario(nombre, email, password) {
     password: password
   }
   return newUser
-} // porque funciono así?
+}
 
 function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
@@ -72,13 +72,7 @@ function tieneEmail(usuario) {
   } else {
     return false;
   }
-} 
-  // POR QUEEEE? 
-  // for(let email in usuario){
-  //  if (email !== null){
-  //    return false
-  //  }
-  //} return true
+}
 
 function tienePropiedad(objeto, propiedad) {
   // Devuelve "true" si el objeto (parámetro "objeto") tiene una propiedad (key) cuyo nombre es igual al valor del argumento "propiedad"
@@ -90,7 +84,7 @@ function tienePropiedad(objeto, propiedad) {
   } else {
       return false;
     }
-} // el mismo por qué?
+}
 
 function verificarPassword(usuario, password) {
   // Comprueba si la "password" enviada coincide con la propiedad "password" del objeto "usuario"
@@ -98,7 +92,7 @@ function verificarPassword(usuario, password) {
   // De lo contrario, devuelve "false"
   // // Tu código:
   return usuario['password'] === password;
-}// por qué???
+}
 
 function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
@@ -106,7 +100,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Tu código:
   usuario.password = nuevaPassword;
   return usuario
-} // por que aqui no permitió la notacion de corchetes?
+}
 
 function agregarAmigo(usuario, nuevoAmigo) {
   // "usuario" tiene una propiedad llamada "amigos" que es un array
@@ -115,7 +109,7 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // // Tu código:
   usuario.amigos.push(nuevoAmigo)
   return usuario
-} //por que sin el igual??
+}
 
 function pasarUsuarioAPremium(usuarios) {
   // "usuarios" es un array de objetos "usuario"
@@ -127,7 +121,7 @@ function pasarUsuarioAPremium(usuarios) {
     usuarios[i].esPremium = true;
   }
   return usuarios;
-} //Esta bien enunciado?
+}
 
 function sumarLikesDeUsuario(usuario) {
   // "usuario" tiene una propiedad llamada "posts" que es un array
@@ -141,7 +135,7 @@ function sumarLikesDeUsuario(usuario) {
     Totalikes = Totalikes + usuario.posts[i].likes;
   }
   return Totalikes;
-} // Explicar bien la sintaxis de un objeto en un arreglo
+}
 
 function agregarMetodoCalculoDescuento(producto) {
   // Agregar un método (función) al objeto "producto" llamado "calcularPrecioDescuento"
