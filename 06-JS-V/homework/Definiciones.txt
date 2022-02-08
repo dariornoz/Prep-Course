@@ -1,0 +1,3 @@
+* `prototype` es una funcion o metodo que esta guardado en la plantilla original de los objetos y esta disponible para que todos los objetos creados con esa plantilla la puedan usar.
+
+* _Constructors_ (de Clases) es un molde o plantilla que se usa para crear muchos objetos de la misma clase.
