@@ -15,9 +15,9 @@ function deObjetoAmatriz(objeto){
   // matriz.push(i, objeto[i])
   // return matriz 
 
-  const matriz =[]
-	for( x in objeto){
-  matriz.push([x, objeto[x]])
+  var matriz =[]
+	for( let clave in objeto){
+  matriz.push([clave, objeto[clave]])
 	}
   return matriz
 }
@@ -68,7 +68,7 @@ function asAmirror(str) {
   var espejo = str.split(' ').map(function (item) {
     return item.split('').reverse().join('');
   }).join(' ');
-  return espejo;
+  return espejo ;
 
 } 
 
@@ -79,8 +79,7 @@ function capicua(numero){
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
   let cadena= numero.toString();
-  let cadenaInvertida = "";
-	
+
   cadenaInvertida = cadena.split("").reverse().join("");
 	if(cadena == cadenaInvertida){
         return "Es capicua"
